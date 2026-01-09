@@ -129,14 +129,14 @@ nav .menu a {
 }
 
 /* card section */
-.vector {
+.image {
     background-color: red;
     border-radius: 50%;
 
 
 }
 
-.vector-border {
+.image-border {
     width: 40px;
     height: 40px;
     padding-top: 40px;
@@ -170,4 +170,39 @@ nav .menu a {
     color: #627382;
     margin: 2px;
     text-align: center;
+}
+
+
+/* brain-section */
+
+#brain-section {
+    display: flex;
+    padding-top: 30px;
+}
+
+#brain-section img {
+    width: 480px;
+    height: 500px;
+    padding-left: 130px;
+}
+
+.brain {
+    padding-left: 40px;
+}
+
+.para {
+    font-size: 16px;
+    color: #469165;
+    margin: 3px;
+    padding-top: 60px;
+}
+
+.brain h1 {
+    font-size: 48px;
+    margin: 3px;
+}
+
+.para-2 {
+    font-size: 16px;
+    color: #627382;
 }
