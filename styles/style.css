@@ -133,23 +133,41 @@ nav .menu a {
     background-color: red;
     border-radius: 50%;
 
+
 }
 
 .vector-border {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
+    padding-top: 40px;
+    padding-left: 100px;
+    justify-content: center;
 
 }
 
 #cards {
     display: flex;
-    gap: 20px;
+    gap: 24px;
     margin: 60px auto;
-    padding: 30px 80px;
+    padding-left: 140px;
+    padding-right: 30px;
 }
 
 #cards .card-container {
-    border: 1px solid red;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    padding: 20px 10px;
+}
 
+.card-container h2 {
+    size: 24px;
+    color: #001931;
+    display: flex;
+    justify-content: center;
+}
 
+.card-container p {
+    font-size: 14px;
+    color: #627382;
+    margin: 2px;
+    text-align: center;
 }
