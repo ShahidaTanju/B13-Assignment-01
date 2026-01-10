@@ -1,6 +1,7 @@
 /* body {
-    margin: 0;
+    max-width: 1300px;
 } */
+
 /* * {
     margin: 0;
     padding: 0;
@@ -22,7 +23,7 @@ nav {
 .btn {
     background-color: #469165;
     border: none;
-    padding: 13px 15px;
+    padding: 15px 13px;
     border-radius: 5px;
     font-size: 18px;
     color: #FFFFFF;
@@ -35,6 +36,7 @@ nav {
     align-items: center;
     padding-left: 70px;
     padding-right: 70px;
+    padding-bottom: 30px;
 }
 
 .logo {
@@ -59,7 +61,7 @@ nav .menu a {
 
 #banner {
     text-align: center;
-    padding: 80px 50px;
+    max-width: 2200px;
 }
 
 .banner-content {
@@ -76,7 +78,7 @@ nav .menu a {
     margin: 3px;
 }
 
-#banner .banner-image {
+.banner-image {
     background-image: url("../assets/hero-bg.png");
     background-size: cover;
     background-position: center;
@@ -93,13 +95,12 @@ nav .menu a {
 
 .arrow {
     display: inline-flex;
-    justify-content: center;
-    align-items: center;
+    justify-items: center;
 }
 
 .banner-btn {
     border: 2px solid #FFFFFF;
-    padding: 13px 15px;
+    padding: 15px 13px;
     border-radius: 5px;
     font-size: 18px;
     margin: 3px;
@@ -116,11 +117,14 @@ nav .menu a {
     border-radius: 10px;
     font-size: 18px;
     color: #30B868;
+    cursor: pointer;
 }
 
 
 .notes-section {
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .notes-section h1 {
@@ -134,18 +138,19 @@ nav .menu a {
 }
 
 /* card section */
-.image {
-    background-color: red;
-    border-radius: 50%;
-}
 
 .image-border {
+    background-color: red;
+    border-radius: 50%;
     width: 40px;
-    height: 40px;
-    padding-top: 40px;
-    padding-left: 100px;
-    justify-content: center;
+    height: 35px;
+    text-align: center;
 
+}
+
+.image-box {
+    padding-left: 100px;
+    padding-top: 20px;
 }
 
 #cards {
@@ -154,6 +159,7 @@ nav .menu a {
     margin: 60px auto;
     padding-left: 140px;
     padding-right: 30px;
+    height: 250px;
 }
 
 #cards .card-container {
@@ -173,6 +179,10 @@ nav .menu a {
     color: #627382;
     margin: 2px;
     text-align: center;
+}
+
+.card-br {
+    justify-items: center;
 }
 
 /* brain-section */
@@ -211,12 +221,23 @@ nav .menu a {
     color: #627382;
 }
 
-.feature-list li {
-    /* display: flex; */
-    align-items: center;
-    list-style: none;
+.feature-list {
+    justify-items: start;
     font-size: 16px;
 }
+
+.circle {
+    display: flex;
+    gap: 3px;
+}
+
+.circle i {
+    background-color: #469165;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
 
 
 /* challenge section */
@@ -254,8 +275,7 @@ footer {
     background-color: #001931;
     height: 300px;
     margin-top: 50px;
-    width: 100%;
-    padding: 0;
+    max-width: 2200px;
 
 }
 
